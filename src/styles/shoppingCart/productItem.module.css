@@ -1,0 +1,131 @@
+.itemContainer {
+  display: flex; /* Esnek kutu düzeni */
+  flex-wrap: wrap; /* İçerik taşarsa sar */
+  gap: 20px; /* Öğeler arasındaki boşluk */
+  justify-content: center; /* Öğeleri yatayda ortala */
+}
+
+.item {
+  background-color: #fff; /* Arka plan rengi beyaz */
+  border: 1px solid #ddd; /* Açık gri kenarlık */
+  border-radius: 8px; /* Kenarları yuvarlat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  overflow: hidden; /* Taşan içeriği gizle */
+  width: 300px; /* Genişlik 300px */
+  height: 1000px;
+  margin: 10px; /* Dış boşluk 10px */
+  transition: transform 0.2s; /* Dönüşüm animasyonu */
+  display: flex;
+  flex-direction: column; /* Öğeleri dikeyde hizala */
+  align-items: center; /* Öğeleri yatayda ortala */
+}
+
+.item:hover {
+  transform: scale(1.05); /* Üzerine gelince büyüt */
+}
+
+.imageContainer img {
+ margin-top: 20px;
+  height: 300px;
+  width: 300px;
+
+}
+.image{
+    height: 300px;
+    width: 300px;
+    height: auto; /* Yükseklik otomatik */
+}
+
+.titleContainer h1 {
+  font-size: 1.5em; /* Yazı boyutu 1.5em */
+  margin: 10px 0; /* Üst ve alt boşluk 10px */
+  text-align: center; /* Metni ortala */
+}
+
+.categoryContainer h3,
+.priceContainer h3 {
+  margin: 10px 0; /* Üst ve alt boşluk 10px */
+  text-align: center; /* Metni ortala */
+}
+
+.descriptionContainer {
+  padding: 0 10px; /* İç boşluk sağ ve sol 10px */
+  text-align: justify; /* Metni iki yana yasla */
+  height: 500px; /* Yükseklik 500px */
+  overflow: hidden; /* Taşan içeriği gizle */
+  transition: max-height 0.2s ease-out; /* Yükseklik animasyonu */
+}
+
+
+.ratingContainer {
+display: flex; /* Esnek kutu düzeni */
+justify-content: space-between; /* Öğeler arasını aç */
+padding: 0 10px; /* İç boşluk sağ ve sol 10px */
+text-align: justify; /* Öğeleri iki yana yasla */
+margin-top: 20px; /* Üst boşluk 20px */
+margin-bottom: 20px; /* Alt boşluk 20px */
+}
+
+.count{
+    font-size: 0.9em; /* Yazı boyutu 0.9em */
+    margin-left: 20px; /* Sol boşluk 20px */
+}
+.rate {
+  font-size: 0.9em; /* Yazı boyutu 0.9em */
+  margin-left: 20px; /* Sol boşluk 20px */
+}
+
+.priceContainer {
+  background-color: #f8f8f8; /* Arka plan rengi açık gri */
+  padding: 10px; /* İç boşluk 10px */
+  text-align: center; /* Metni ortala */
+  font-weight: bold; /* Kalın yazı */
+}
+
+.buttonContainer {
+  display: flex; /* Esnek kutu düzeni */
+  justify-content: space-around; /* Öğeleri yatayda ortala */
+  align-items: center; /* Öğeleri dikeyde ortala */
+  padding: 10px; /* İç boşluk 10px */
+}
+
+.addToCartButton {
+  background-color: #e2761d; /* Arka plan rengi turuncu */
+  border: none; /* Kenarlık yok */
+  border-radius: 8px; /* Kenarları yuvarlat */
+  padding: 10px 100px; /* İç boşluk 10px üst-alt, 100px sağ-sol */
+  color: #fff; /* Yazı rengi beyaz */
+  cursor: pointer; /* İmleç işaretçisi */
+  transition: background-color 0.2s, transform 0.2s; /* Arka plan rengi ve dönüşüm animasyonu */
+  font-size: 1em; /* Yazı boyutu 1em */
+  font-weight: bold; /* Kalın yazı */
+  margin-bottom: 30px; /* Alt boşluk 10px */
+}
+
+.addToCartButton:hover {
+  background-color: #007bff; /* Üzerine gelince arka plan rengi mavi */
+  transform: scale(1.05); /* Üzerine gelince büyüt */
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.loading::before {
+    content: ""; /* İçerik yok */
+    box-sizing: border-box;/* Kutu modeli */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #007bff;
+    animation: spin 1s linear infinite; /* Dönme animasyonu */
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);/* 360 derece döndür */
+    }
+}

@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footerInformation {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.footerInformation p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+.footerButtons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.deleteAllMadeButton,
+.deleteAllButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteAllMadeButton:hover,
+.deleteAllButton:hover {
+    background-color: #d41212;
+}

@@ -1,0 +1,47 @@
+.searchContainer {
+    /* Konteynerin genel stilini belirler */
+    display: flex; /* Esnek kutu düzenini kullanır */
+    flex-direction: column; /* İçeriği dikey hizalar */
+    align-items: center; /* İçeriği yatayda ortalar */
+    padding: 20px; /* İçeriğe 20px iç boşluk ekler */
+    background-color: #f9fafc; /* Açık bir arka plan rengi belirler */
+    border-radius: 10px; /* Köşeleri yuvarlaklaştırır */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+    width: 100%; /* Konteynerin genişliğini tam genişlik yapar */
+    max-width: 400px; /* Maksimum genişliği 400px ile sınırlar */
+    margin: auto; /* Ortalamak için otomatik kenar boşluğu ekler */
+    margin-top: 10px;
+  }
+  
+  .searchContainer h1 {
+    /* Başlık metninin stilini belirler */
+    font-size: 24px; /* Yazı boyutunu 24px yapar */
+    color: #333; /* Koyu gri bir renk belirler */
+    margin-bottom: 10px; /* Alt boşluğu 10px yapar */
+  }
+  
+  .searchContainer hr {
+    /* Yatay çizginin stilini belirler */
+    width: 100%; /* Çizginin genişliğini tam genişlik yapar */
+    border: 0; /* Varsayılan kenarlığı kaldırır */
+    border-top: 1px solid #ddd; /* Üst kenarlık olarak ince bir çizgi ekler */
+    margin: 10px 0; /* Üst ve alt boşlukları belirler */
+  }
+  .searchInput {
+    /* Arama giriş alanının stilini belirler */
+    width: 100%; /* Giriş alanının genişliğini tam genişlik yapar */
+    padding: 10px; /* İçeriğe 10px iç boşluk ekler */
+    font-size: 16px; /* Yazı boyutunu 16px yapar */
+    border: none; /* Kenarlığı kaldırır */
+  
+    margin-bottom: 10px; /* Alt boşluğu 10px yapar */
+    box-sizing: border-box; /* Kenarlık ve dolgu hesaplamalarını içeriğe dahil eder */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+  }
+  
+  .searchInput:focus {
+    /* Giriş alanı odaklandığında stil değişiklikleri */
+    outline: none; /* Varsayılan odak çerçevesini kaldırır */
+ 
+  }
+  
