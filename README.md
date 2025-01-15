@@ -8,6 +8,7 @@
             <li>✔ useState: Görevleri eklemek, düzenlemek ve silmek için kullandık.</li>
             <li>✔ input bileşenimizn onKeyDown, onChange özelliklerini kullanarak veri girişini denetimli hale getirdik.</li>
             <li>✔ Propsları kullanarak bileşenler arası veri geçirme işlemini öğrenmiş olduk.</li>
+                  <img src="https://github.com/oguzhandilek/ReactExercisesForBeginners/blob/main/src/assets/readmeImage/todoApp.png"/>
           </ul>
         </li>
         <br />
@@ -26,6 +27,14 @@
             <li>
             ✔ useContext: ürünlere ait bilgileri diğer bileşenlere geçirmek maksadıyla kullandık. Bu örneğimizde props delinmesnin önüne nasıl geçebileceğimizi öğrenmiş olduk.
             </li>
+                  <h3> All Product Category</h3>
+                  <img src="https://github.com/oguzhandilek/ReactExercisesForBeginners/blob/main/src/assets/readmeImage/shoppingCart.png"/>
+                  <br/>
+                  <h3> Product From Category</h3>
+                  <img src="https://github.com/oguzhandilek/ReactExercisesForBeginners/blob/main/src/assets/readmeImage/shoppinCartCategorypng.png"/>
+                  <br/>
+                  <h3> Shopping Cart</h3>
+                  <img src="https://github.com/oguzhandilek/ReactExercisesForBeginners/blob/main/src/assets/readmeImage/shoppinCartCartContainer.png"/>
           </ul>
         </li>
         <br />
@@ -41,6 +50,9 @@
             </li>
           </ul>
         </li>
+               <h3> Weather App</h3>
+                  <img src="https://github.com/oguzhandilek/ReactExercisesForBeginners/blob/main/src/assets/readmeImage/weatherApp.png"/>
+                  <br/>
         <br/>
         <li>
            Uygulamalar Arası Geçiş
