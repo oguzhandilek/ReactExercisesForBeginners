@@ -9,7 +9,6 @@
             <li>✔ input bileşenimizn onKeyDown, onChange özelliklerini kullanarak veri girişini denetimli hale getirdik.</li>
             <li>✔ Propsları kullanarak bileşenler arası veri geçirme işlemini öğrenmiş olduk.</li>
           </ul>
-       
         </li>
         <br />
         <li>
